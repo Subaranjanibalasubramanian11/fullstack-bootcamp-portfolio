@@ -17,7 +17,7 @@ The portfolio showcases my skills, projects, certificates, and learning journey 
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 portfolio/
 │
 ├── public/
@@ -46,6 +46,9 @@ portfolio/
 │   ├── App.js
 │   ├── App.css
 │   └── index.js
+│
+├── package.json
+├── package-lock.json
 │
 └── README.md
 ---
