@@ -18,8 +18,9 @@ The portfolio showcases my skills, projects, certificates, and learning journey 
 ---
 
 ## 📁 Project Structure
+
+```
 portfolio/
-│
 ├── public/
 │   ├── index.html
 │   └── assets/
@@ -49,10 +50,8 @@ portfolio/
 │
 ├── package.json
 ├── package-lock.json
-│
 └── README.md
----
-
+```
 # 📌 Portfolio Sections
 
 ## 1. 🏠 Landing Page (Home)
