@@ -18,7 +18,36 @@ The portfolio showcases my skills, projects, certificates, and learning journey 
 ---
 
 # 📁 Project Structure
-
+portfolio/
+│
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── certificates/
+│       │   ├── hackerrank1.jpeg
+│       │   ├── hplife1.jpeg
+│       │   ├── hplife2.jpeg
+│       │   ├── hplife3.jpeg
+│       │   ├── guvi1.jpeg
+│       │   ├── googlestudyjam.jpeg
+│       │   ├── spokenrdbms.jpeg
+│       │   └── datathon.jpeg
+│       └── profile.jpeg
+│
+├── src/
+│   ├── components/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Certificates.js
+│   │   └── Contact.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+└── README.md
 ---
 
 # 📌 Portfolio Sections
@@ -60,36 +89,7 @@ Technologies I have learned:
 ---
 
 ## 4. 📂 Projects Section
-portfolio/
-│
-├── public/
-│ ├── index.html
-│ └── assets/
-│ ├── certificates/
-│ │ ├── hackerrank1.jpeg
-│ │ ├── hplife1.jpeg
-│ │ ├── hplife2.jpeg
-│ │ ├── hplife3.jpeg
-│ │ ├── guvi1.jpeg
-│ │ ├── googlestudyjam.jpeg
-│ │ ├── spokenrdbms.jpeg
-│ │ └── datathon.jpeg
-│ └── profile.jpeg
-│
-├── src/
-│ ├── components/
-│ │ ├── Home.js
-│ │ ├── About.js
-│ │ ├── Skills.js
-│ │ ├── Projects.js
-│ │ ├── Certificates.js
-│ │ └── Contact.js
-│ │
-│ ├── App.js
-│ ├── App.css
-│ └── index.js
-│
-└── README.md
+
 ### 🧠 AI Resume Analyzer
 - Built using Python, Flask, HTML, CSS  
 - Analyzes resumes and provides improvement suggestions  
