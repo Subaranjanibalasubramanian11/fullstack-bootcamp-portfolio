@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+# 🚀 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👩‍💻 Student Information
+- **Name:** Subaranjani K B  
+- **Role:** Aspiring Full Stack Developer  
+- **Email:** subaranjani1111@gmail.com  
+- **GitHub:** https://github.com/Subaranjanibalasubramanian11  
+- **Portfolio:** https://subaranjanibalasubramanian11.github.io/portfolio/  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 📌 Project Overview
 
-### `npm start`
+This is my **personal portfolio website** built as part of the *Full Stack Development with AI Bootcamp (Day 5 Final Project)*.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The portfolio showcases my skills, projects, certificates, and learning journey in web development. It is designed with a clean UI/UX and fully responsive layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+portfolio/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── certificates/
+│       │   ├── hackerrank1.jpeg
+│       │   ├── hplife1.jpeg
+│       │   ├── hplife2.jpeg
+│       │   ├── hplife3.jpeg
+│       │   ├── guvi1.jpeg
+│       │   ├── googlestudyjam.jpeg
+│       │   ├── spokenrdbms.jpeg
+│       │   └── datathon.jpeg
+│       └── profile.jpeg
+│
+├── src/
+│   ├── components/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Certificates.js
+│   │   └── Contact.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
+# 📌 Portfolio Sections
 
-### `npm run build`
+## 1. 🏠 Landing Page (Home)
+- Introduction about myself
+- Name and professional role
+- Short tagline:
+  > "Aspiring Full Stack Developer | Passionate about building modern web applications"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2. 👩‍💻 About Page
+- My background in Information Technology
+- My learning journey in web development
+- Experience in:
+  - HTML, CSS, JavaScript
+  - Python, Flask
+  - Full Stack Development
+- Projects built during learning journey
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 3. 🛠 Skills Section
+Technologies I have learned:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML  
+- CSS  
+- JavaScript  
+- React  
+- Python  
+- Flask  
+- Node.js  
+- Express.js  
+- MongoDB  
+- MySQL  
+- GitHub  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4. 📂 Projects Section
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🧠 AI Resume Analyzer
+- Built using Python, Flask, HTML, CSS  
+- Analyzes resumes and provides improvement suggestions  
+- Upload and result-based system  
 
-## Learn More
+### 📚 E-Library Management System
+- Digital library system  
+- Book upload, view, and management  
+- Login system and chatbot support  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 💻 GUVI Internship Project
+- Full Stack User Management System  
+- Authentication system with MySQL  
+- Responsive UI using Bootstrap  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 5. 🏆 Certificates Section
+Includes certificates from:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- HackerRank (Java, CSS Basics)  
+- HP LIFE Courses (Leadership, AI, Agile, etc.)  
+- GUVI & HCL Training Programs  
+- Google Cloud Study Jam  
+- Spoken Tutorial (RDBMS, Java, C)  
+- ICT Academy Learnathon  
+- Datathon Participation  
+- Coursera Courses (UI/UX, AI, Data Analytics, etc.)  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 6. 📞 Contact Section
+- 📧 Email: subaranjani1111@gmail.com  
+- 🔗 LinkedIn: www.linkedin.com/in/subaranjani-balasubramanian-7a6b9930a  
+- 💻 GitHub: github.com/Subaranjanibalasubramanian11  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 🤖 AI Usage (Mandatory)
 
-### Advanced Configuration
+During development, I used AI tools such as:
+- ChatGPT for code improvement and UI design ideas  
+- Debugging support  
+- Structure planning and optimization  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✔ All outputs were understood and implemented manually by me.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 🎨 Design & UI Features
 
-### `npm run build` fails to minify
+- Clean dark theme UI  
+- Responsive design for all devices  
+- Modern card layouts for projects and certificates  
+- Smooth hover animations  
+- Organized section-based structure  
+- Simple navigation bar for easy access  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 🚀 Key Features
+
+- Fully responsive portfolio website  
+- Multi-section navigation (Home, About, Skills, Projects, Certificates, Contact)  
+- Image-based certificate showcase  
+- Project cards with descriptions  
+- Clean UI/UX design  
+- Hosted on GitHub Pages  
+
+---
+
+# 📌 Deployment
+
+- GitHub Repository:  
+  https://github.com/Subaranjanibalasubramanian11/portfolio  
+
+- Live Website:  
+  https://subaranjanibalasubramanian11.github.io/portfolio  
+
+---
+
+# 🎯 Outcome
+
+This project helped me:
+- Improve frontend development skills  
+- Learn React component structure  
+- Build real-world portfolio UI  
+- Understand responsive design principles  
+- Strengthen GitHub workflow  
+
+---
+
+# 🙌 Acknowledgement
+
+Thanks to **Nunnari Academy** for this bootcamp opportunity and guidance throughout the 5-day learning journey.
+
+---
+
+⭐ *This portfolio represents my learning journey and first step toward becoming a professional Full Stack Developer.*
