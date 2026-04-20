@@ -34,30 +34,26 @@ export default function Home() {
 
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index]);
-
-  return (
-    <section id="home" className="home-container">
-
-      <div className="home-text">
-        <h1 className="hero-title">
-  Hi, I'm <span className="name">Subaranjani&nbsp;K&nbsp;B</span> 
-</h1>
-
-        <h2 className="typing">{text}</h2>
-
-        <p>
-          Passionate about building modern web applications and solving real-world problems using technology.
-        </p>
-
-        <a href="#projects">
-          <button>View My Work</button>
-        </a>
+return (
+  <section id="home" className="home-container">
+    <div className="home-text">
+      <div className="hero-badge">
+        <div className="badge-dot"></div> Open to opportunities
       </div>
-
-      <div className="home-img">
-        <img src={profile} alt="profile" />
+      <h1 className="hero-title">
+        Hi, I'm <span className="name">Subaranjani&nbsp;K&nbsp;B</span>
+      </h1>
+      <h2 className="typing">{text}</h2>
+      <p>Passionate about building modern web applications and solving real-world problems using technology.</p>
+      <div className="hero-btns">
+        <a href="#projects"><button>View My Work</button></a>
+        <a href="#contact"><button className="btn-outline">Get in Touch</button></a>
       </div>
-
-    </section>
-  );
+    </div>
+    <div className="home-img">
+      <div className="avatar-ring"></div>
+      <img src={profile} alt="profile" />
+    </div>
+  </section>
+);
 }
