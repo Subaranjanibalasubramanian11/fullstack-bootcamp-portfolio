@@ -1,6 +1,7 @@
 export default function About() {
   return (
     <section id="about">
+
       <h2>About me</h2>
 
       {/* ── TOP: Avatar + Intro ── */}
@@ -27,7 +28,7 @@ export default function About() {
       <div className="about-info-grid">
         <div className="about-info-card">
           <span className="info-label">Degree</span>
-          <span className="info-val">B.Tech – Information Technology</span>
+          <span className="info-val">B.Sc. – Information Technology</span>
         </div>
         <div className="about-info-card">
           <span className="info-label">Focus area</span>

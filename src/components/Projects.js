@@ -28,7 +28,7 @@ import b4 from "../assets/certificates/updateuser.png";
 import b5 from "../assets/certificates/console.png";
 import b6 from "../assets/certificates/day4.png";
 import b7 from "../assets/certificates/update.png";
-
+<section id="projects">...</section>
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentImg, setCurrentImg] = useState(0);

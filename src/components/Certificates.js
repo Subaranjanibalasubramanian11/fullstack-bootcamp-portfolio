@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Certificates.css";
-
 import hackerrank from "../assets/certificates/hackerrank1.jpeg";
 import hplife1 from "../assets/certificates/hplife1.jpeg";
 import hplife2 from "../assets/certificates/hplife2.jpeg";
@@ -9,7 +8,7 @@ import guvi from "../assets/certificates/guvi1.jpeg";
 import google from "../assets/certificates/googlestudyjam.jpeg";
 import spoken from "../assets/certificates/spokenrdbms.jpeg";
 import datathon from "../assets/certificates/datathon.jpeg";
-
+<section id="certificates">...</section>
 const certs = [
   { img: hackerrank, title: "HackerRank Certification",   issuer: "HackerRank", badge: "Problem Solving", dot: "#2dd4bf", cat: "tech"  },
   { img: hplife1,    title: "HP LIFE Certification 1",    issuer: "HP LIFE",    badge: "Business Skills", dot: "#3b82f6", cat: "hp"    },

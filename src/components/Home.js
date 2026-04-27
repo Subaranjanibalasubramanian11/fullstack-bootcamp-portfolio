@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import profile from "../assets/certificates/profile.jpeg";
-
+<section id="home">...</section>
 export default function Home() {
   const roles = [
     "Aspiring Full Stack Developer",
